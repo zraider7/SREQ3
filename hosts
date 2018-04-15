@@ -19,18 +19,18 @@
 
 #standalone server option
 [d0l03DomTest2]
-d0l03DomTest2.cl.local
+d0l03DomTest2.ex.contoso
 
 [d0l03DomTest3]
-d0l03DomTest3.cl.local
+d0l03DomTest3.ex.contoso
 
 [d0l03DomTest5]
-d0l03DomTest5.cl.local
+d0l03DomTest5.ex.contoso
 
 [SRETest]
-d0l03DomTest2.cl.local
-d0l03DomTest3.cl.local
-d0l03DomTest5.cl.local
+d0l03DomTest2.ex.contoso
+d0l03DomTest3.ex.contoso
+d0l03DomTest5.ex.contoso
 
 ## [webservers]
 ## alpha.example.org
