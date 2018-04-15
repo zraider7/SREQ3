@@ -23,6 +23,6 @@ called Linuxtopic and made the two jobs: CreateUser and DeleteUser. In the Job, 
 "Ansible-Playbook" followed by the location of the playbook. This way, it made things easier to pass extra arguments to the command, such as Username and which server to
 run things on! 
 
-Now I am not sure what all you wanted me to put up here, so if you would like to see picture/video/show you, let me know at: dpelliccia@cardlytics.command
+Now I am not sure what all you wanted me to put up here, so if you would like to see picture/video/show you, let me know at: dpelliccia@cardlytics.com
 
 -Dom
