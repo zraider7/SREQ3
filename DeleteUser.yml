@@ -1,0 +1,11 @@
+---
+      - hosts: "{{ variable_host | default('web')}}"
+        user: root
+        vars:
+         username: "JDirt"
+        tasks:
+        - name: delete_user
+          user:
+           name: "{{username}}"
+           state: absent
+           remove: yes

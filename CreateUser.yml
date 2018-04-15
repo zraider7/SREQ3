@@ -1,0 +1,13 @@
+---
+      - hosts: "{{ variable_host | default('web')}}"
+        user: root
+        vars:
+         username: "JDirt3"
+         password: "$6$dggMH2hyVUkenw.o$WlyRKTaMuh/GGiw/x96/.ski9SwefRQgLxlQOYHn1H0mjLS/2Mn2aEP1PGD4LtDjR4DmpGz1acMPALlPG/BOG."
+        tasks:
+        - name: Add_SSH_user
+          user:
+           name: "{{username}}"
+           shell: /bin/bash
+           password: "{{password}}"
+           append: yes  
