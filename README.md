@@ -18,4 +18,11 @@ in order to make a hashed password to use in the CreateUser.yml script. The Dele
 the user inputted, if they exist.
 
 Rundeck:
-I used this in order to make it simple for anyone to do the above operations with Ansible. I installed it on the same box with Ansible
+I used this in order to make it simple for anyone to do the above operations with Ansible. I installed it on the same box with Ansible. Once set up, I created a project
+called Linuxtopic and made the two jobs: CreateUser and DeleteUser. In the Job, instead of using the "Run Ansible Playbook" option, I have it set to run the 
+"Ansible-Playbook" followed by the location of the playbook. This way, it made things easier to pass extra arguments to the command, such as Username and which server to
+run things on! 
+
+Now I am not sure what all you wanted me to put up here, so if you would like to see picture/video/show you, let me know at: dpelliccia@cardlytics.command
+
+-Dom
